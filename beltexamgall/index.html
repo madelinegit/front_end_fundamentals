@@ -1,0 +1,84 @@
+<!DOCTYPE html>    
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0"> 
+    <title>Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="title">
+                <h1 class="white-title">Just</h1>
+                <h1 class="orange-title">Dessert</h1>
+            </div>
+            <div class="nav-buttons">
+                <button class="join-btn" onclick="join()"> Join </button>
+                <button class="login-button">Login</button>
+            </div>
+        </div>
+        <div class="searchbar">
+                <form class="searchbargo">
+                    <input type="text" id="SearchQueryInput" class="searchcontent"  placeholder="SEARCH" name="search">
+                    <button type="submit" class="go" onclick="searching()">GO</button>
+                </form>
+                <div class="search-images"><img src="imgs/cake.png" alt="cake" class="search-image"><p class="search-title">Cake</p></div>
+                <div class="search-images"><img src="imgs/cookie.png" alt="cookie" class="search-image"><p class="search-title">Cookies</p></div>
+                <div class="search-images"><img src="imgs/ice-cream.png" alt="ice cream" class="search-image"><p class="search-title">Ice Cream</p></div>
+                <div class="search-images"><img src="imgs/pie.png" alt="pie" class="search-image"><p class="search-title">Pie</p></div>
+        </div>
+        <div class="main">
+            <div class="column1">
+                <div class="recipe-of-day">
+                    <h2 class="h2blue">Recipe of the Day</h2>
+                    <img src="imgs/orange-tart.jpg" alt="orange tart" class="orange-tart">
+                    <div class="tart-info">
+                        <div>
+                            <p>Orange Tea Jelly Tart</p>
+                            <p>by:<a href="URL">EmilieW</a></p>
+                        </div>
+                        <div class ="likecount"> 
+                            <h3 id="likeCount">0</h3> 
+                            <img src="imgs/heart.png" alt="heart" class="heart" onclick="liked()">  
+                        </div>
+                    </div>
+                    <div class=recipe-link>
+                    <a href="URL">See Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="recommended-recipe">
+                    <h3 class="recommend-nav">Recommended for you:</h3>
+                    <img src="imgs/macarons.jpg" alt="recommended" class="recommended-image">
+                    <div class="recommended-info">
+                        <div>
+                            <p>Macaroons</p>
+                            <p>by:<a href="URL">MarisaG</a></p>
+                        </div>
+                        <div class ="likecount2"> 
+                            <h3 id="likeCount2">0</h3> 
+                            <img src="imgs/heart.png" alt="heart" class="heart" onclick="liked2()">  
+                        </div>
+                    </div>
+                </div>
+                <div class="recommended-recipe">
+                    <img src="imgs/creme-brulee.jpg" alt="recommended" class="recommended-image">
+                    <div class="recommended-info">
+                        <div>
+                            <p>Creme-Brulee</p>
+                            <p>by:<a href="URL">yuripiano</a></p>
+                        </div>
+                        <div class ="likecount3"> 
+                            <h3 id="likeCount3">0</h3> 
+                            <img src="imgs/heart.png" alt="heart" class="heart" onclick="liked3()">  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h1>DojoWeather</h1>
+            <h3 onclick="loading(this)">Burbank</h3>
+            <h3 onclick="loading(this)">Chicago</h3>
+            <h3 onclick="loading(this)">Dallas</h3>
+        </div>
+        <div class="row-1">
+            <h2>San Jose</h2>
+            <label>show temprature in <select onchange="changeScale(this)"></label>
+                <option value="C">C</option>
+                <option value="F">F</option>
+            </select>
+        </div>
+        <div class="row-2">
+            <div class="column">
+                <p id="day">Today</p>
+                <img src="some_sun.png" alt="sun">
+                <label>some sun</label>
+                <span><p class="temp">24</p><p class="temp">18</p></span>
+            </div>
+            <div class="column">
+                <p id="day">Tomorrow</p>
+                <img src="some_rain.png" alt="rain">
+                <label>some rain</label>
+                <span><p class="temp">27</p><p class="temp">19</p></span>            
+            </div>
+            <div class="column">
+                <p id="day">Friday</p>
+                <img src="some_clouds.png" alt="clouds">
+                <label>some clouds</label>
+                <span><p class="temp">21</p><p class="temp">16</p></span>            
+            </div>
+            <div class="column">
+                <p id="day">Saturday</p>
+                <img src="some_sun.png" alt="sun">
+                <label>some sun</label>
+                <span><p class="temp">26</p><p class="temp">21</p></span>
+            </div>
+        </div>
+        <div class="row-3">
+            <img src="cookie.png" alt="cookie">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic</p>
+            <a href="#">Read more...</a>
+            <button onclick="accept()">I accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
