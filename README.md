@@ -1,5 +1,5 @@
 ## Coding Dojo 8 week Web Fundamentals
 ***
 ### Projects
-1. Button Up
-2. DojoWeather
+1. Button Up - JavaScript clickable buttons
+2. DojoWeather - A weather page with JavaScript features
