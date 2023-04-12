@@ -1,0 +1,160 @@
+body{
+    background-color: white;
+}
+.container{
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid black;
+    width: 1000px;
+}
+.top-nav{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 1000px;
+    justify-content: center;
+}
+#textbar{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+    color: white;
+    word-spacing: 25px;
+}
+.box-a{
+    display: flex;
+    border: solid black;
+    width: 391px;
+    height: 300px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+}
+.banner1{
+    background-color: aqua;
+    padding-left: 15px;
+    height: 60px;
+    width: 376px;
+}
+.box-b{
+    border: solid black;
+    margin-top: 5px;
+    width: 391px;
+}
+.banner2{
+    display: flex;
+    justify-content: flex-start;
+    background-color: gray;
+    height: 40px;
+    width: 391px;
+    padding-bottom: 5px;
+    color: white;
+}
+.box-c{
+    border: solid black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 230px;
+    margin: 5px;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    height: 50px;
+    width: 230px;
+    font-size: large;
+}
+.box-d{
+    border: solid black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 230px;
+    margin: 5px;
+}
+.banner-d{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    height: 50px;
+    width: 215px;
+    padding-left: 15px;
+    font-size: larger;
+}
+.listb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    height: 100px;
+    width: 25px;
+}
+h1{
+    display: flex;
+    font-size: larger;
+    font-weight: bolder;
+}
+#two{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    margin-right: 5px;
+    text-align: center;
+}
+#plus{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 5px;
+    text-align: center;
+}
+.edit{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    width: 390px;
+}
+.row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 230px;
+    text-align: center;
+}
+button{
+    display: block;
+    background-color: aqua;
+    color: white;
+    padding-top: 10px;
+    height: 30px;
+    margin-left: 25px;
+}
+h3{
+    text-decoration: underline;
+    color: aqua;
+}

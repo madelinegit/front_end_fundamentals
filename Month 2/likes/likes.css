@@ -1,0 +1,86 @@
+* {
+	outline: 0;
+	padding: 0; 
+	margin: 0;
+	border: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+	}
+
+.container {
+    width: 900px;
+    margin: 0% auto;
+    align-items: center;
+}
+
+.navbar {
+    margin-bottom:15px;
+    padding:25px;
+    color:white;
+    background-color:black;
+}
+
+.yourfeed {
+    margin-bottom:25px;
+    text-align:center;
+}
+
+.main {
+    display:flex;
+    border:1px black;
+}
+
+.column1 {
+    flex: 1;
+    text-align: center;
+    line-height: 100px;
+}
+
+.selfuser, .someuser {
+    border: 3px solid black; 
+}
+
+.usercircle {
+    margin-top: 30px;
+    height:150px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction:column;
+    flex: 2;
+    margin-left:50px;
+}
+
+.someuser {
+    margin-bottom:15px;
+    padding:25px;
+    line-height: 30px;
+    /* justify-content: flex-end; */
+}
+
+.userheader, .likecount {
+    display:flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.like {
+    text-align:center;
+    width: 50px;
+    margin-left: 15px;
+    border: 1px solid black;
+    padding: 3px;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+    background-color:yellow;
+}
+
+.status {
+    font-size: 150%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+

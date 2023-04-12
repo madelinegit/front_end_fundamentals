@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../fizzbuzz"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

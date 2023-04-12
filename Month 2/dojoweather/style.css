@@ -1,0 +1,105 @@
+* {
+	outline: 0;
+	padding: 0; 
+	margin: 0;
+	border: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+	}
+
+.container {
+    width: 1000px;
+    margin: 0% auto;
+}
+
+p  {
+    font-size: 130%;
+}
+
+/* h2 {
+    font-size: 130%;
+} */
+
+.navbar {
+    background-color:rgb(115, 122, 228);
+    color:whitesmoke;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.cities {
+    width:300px;
+    display:flex;
+    padding:25px;
+    justify-content:space-between;
+    font-size:125%;
+}
+
+.sanjose {
+    padding:30px 0px 30px 0px;
+    border-bottom: solid black 2px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.farceltemp {
+    display:flex;
+    align-items:center;
+}
+.temperature {
+    margin-left: 5px;
+    padding:5px;
+    border:solid black 2px;
+}
+
+.week {
+    margin-top:25px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.image {
+    width:200px;
+    padding:10px 0px 10px 0px;
+    border-radius:50%;
+}
+.daily {
+    margin-bottom: 15px;
+    padding:15px;
+    background-color:lightgray;
+    line-height:30px;
+    text-align:center;
+}
+.highlow {
+    margin-top: 15px;
+    display:flex;
+    justify-content: space-around;
+}
+.high {
+    color:red
+}
+.low {
+    color:blue;
+}
+.cookie {
+    width: 1000px;
+    display:flex;
+    position: fixed;
+    padding: 15px;
+    border:black solid 4px;
+    align-items: center;
+}
+.cookieimage {
+    width:200px;
+    margin: 30px;
+}
+.cookietext {
+    margin: 0px 100px 0px 0px;
+}
+.acceptbtn {
+    border: solid black 3px;
+    box-shadow: 7px 7px;
+    padding:20px;
+    background-color: rgb(115, 122, 228)
+}

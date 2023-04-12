@@ -1,0 +1,66 @@
+<!DOCTYPE html>    
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content ="width=device-width,", initial-scale=1.0> 
+    <title>Likes</title>
+    <link rel="stylesheet" href="likes.css">
+    <script src="likes.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="navbar"><h1>Network</h1></div>
+    <div class="yourfeed"><h1>Your Feed</h1></div>
+    <div class="main">
+        <div class="column1">
+            <div class="selfuser">
+                <div>
+                    <img src="usercircle.png" alt text="image cirlce" class="usercircle">
+                </div>
+                <h3 class="status">
+                    <a href="URL">Add an avatar</a>
+                </h3>
+                <h1 class="headers">James Doe</h1>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="someuser">
+                <div class="userheader">
+                    <h1 class="headers">Neil M </h1>
+                    <div class ="likecount"> 
+                        <p> <span id="likeCount">0</span>  Likes </p>
+                        <h3 class="like" onclick="liked()"> Like </h3>
+                    </div>
+                </div>
+                <h3 class="status">
+                    I just set up this new discord bot, let me know what you all think. 
+                    <a href="URL">link</a> 
+                </h3>
+            </div>
+            <div class="someuser">
+                <div class="userheader">
+                    <h1>Nichole K </h1> 
+                    <div class="likecount">
+                        <p><span id="likeCount2">0</span>  Likes </p> 
+                        <h3 class="like" onclick="liked2()"> Like </h3>
+                    </div>    
+                </div>
+                <h3 class="status">
+                    Just finished my <a href="URL">next comic</a>, check it out. 
+                </h3>
+            </div>
+            <div class="someuser">
+                <div class="userheader">
+                    <h1>Neil M </h1> 
+                    <div class="likecount">
+                        <p><span id="likeCount3">0</span>  Likes </p>
+                        <h3 class="like" onclick="liked3()"> Like </h3>
+                    </div>
+                </div>
+                <h3 class="status">I just set up this new discord bot, let me know what you all think. <a href="URL">link</a> </h3>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

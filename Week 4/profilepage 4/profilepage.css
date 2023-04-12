@@ -1,0 +1,128 @@
+* {
+	outline: 0;
+	padding: 0; 
+	margin: 0;
+	border: 0;
+    font-family: Helvetica, sans-serif
+	}
+.container {
+    width: 1000px;
+    color: bisque;
+    margin: 0% auto;
+    /* border: solid bisque; */
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+}
+#nav-links {
+    display: flex;
+}
+.btn {
+    align-items: flex-end;
+    box-shadow: 3px 3px bisque;
+    border: bisque;
+    color: coral;
+    border-radius: 10% 10%;
+}
+.main {
+    display: flex;
+    padding: 20px;
+}
+.column {
+    flex: 1;
+}
+
+a, h1, h2, h4, h5, p, image, .userimage { 
+    padding: 7px;
+}
+#card-topbar {
+    background-color: coral;
+    padding: 0px;
+}
+
+.banner1, .banner2 { 
+    display: flex;
+    align-items: center;
+    background-color: coral; 
+    margin-bottom: 10px;
+}
+.banner2 {
+    justify-content: center;
+}
+
+.profile {
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
+.image {
+    height: 20px;
+}
+.editname {
+    display:flex;
+}
+.boxtext {
+    margin-top:15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    /* color: rgb(245, 160, 130);  */
+}
+
+#nav-links {
+    align-items: center;
+    list-style-type: none;
+    padding-right: 8px;
+}
+
+a {
+    color: bisque;
+}
+
+.request-list, .request-list2 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    margin: 20px;
+    border: solid bisque;
+    background-color:azure;
+}
+.connections, .requests {
+    font-size: 125%;
+    list-style-type: none;
+    padding:20px;
+}
+
+.connections-list {
+    display:flex;
+    align-items:center;
+}
+#viewmore {
+    border-top: 3px solid bisque;
+    padding: 5px;
+}
+
+.heading {
+    margin: 7px;
+}
+
+.userimage {
+    height: 40px;
+    border-radius: 50%;
+}
+.img-accept {
+    height: 30px;
+}
+.counter, .counter-total {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    background: bisque;
+    color: coral;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    background-color: blue;
+    color: pink
+    justify-content: center;
+}
+.col, .col-2, .col-3 {
+    margin: 20px;
+    padding: 20px;
+    background-color: purple;
+    color: whitesmoke;
+    height: 20px;
+}
+    
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+    
+
+

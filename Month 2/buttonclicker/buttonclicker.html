@@ -1,0 +1,81 @@
+<!DOCTYPE html>    
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content ="width=device-width,", initial-scale=1.0> 
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="buttonclicker.css">
+    <script src="buttonclicker.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="topnav">
+        <h1 class="navtitle">Dojonary</h1>
+        <input class="search" placeholder="Search" type="text" >
+        <!-- <p class="login">Login</p> -->
+        <!-- <p class="login" onclick='document.getElementByClass("login").innerHTML = "logout"'>Login</p> -->
+        <p id="logout-id" class="login" onclick='logout()'>
+        Login
+        </p>
+
+    </div>
+
+<div class="main">
+
+<div class="column1">
+    <div class="card">
+        <div class="cardcol1">
+            <h1>Ninja</h1>
+            <p>Noun</p>
+            <p>Plural: <i>ninjas</i></p>
+            <!-- <h3 class="like"> Like </h3></h1> -->
+            <!-- <span class="liked">Like</span>   -->
+            <h3 class="like" onclick="liked()"> 13 Likes </h3>
+        </div>
+        <div class="cardcol2">
+            <div class="definition">
+                A practitioner skilled in the <a href="URL">Japanese</a> art of <a href="URL">ninjutsu</a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="cardcol1">
+            <h1>Ninja</h1>
+            <h4>Noun</h4>
+            <p>Plural: <i>ninjas</i></p>
+            <!-- <div class="likebutton"> <button type="button" value="Like"></div> -->
+                <!-- <span class="liked">Like</span>  -->
+                <h3 class="like" onclick="liked()"> 37 Likes </h3>
+            </div>
+        <div class="cardcol2">
+            <div class="definition">
+                A <a href="URL">programmer</a> who breaks down problems with <a href="URL">zen</a>-like focus
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="column2">
+    <div class="card2">
+        <p class="dojonary"> Dojonary is Defined by YOU</p>
+        <h2 class="defbutton" onclick="definition()">Add Definition </h2>
+        <script>
+            $('body').contents().filter(function(){
+            return this.nodeType != 1;
+            }).remove();
+        </script>
+        
+    </div></div>    
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</head>
+
+</html>

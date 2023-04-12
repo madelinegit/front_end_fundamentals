@@ -1,0 +1,86 @@
+<!DOCTYPE html>    
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content ="width=device-width,", initial-scale=1.0> 
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="dojoweather">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="cities">
+                <h3 class="alert" onclick="alerts()">Burbank</h3>
+                <h3 class="alert" onclick="alerts()">Chicago</h3>
+                <h3 class="alert" onclick="alerts()">Dallas</h3>
+            </div>
+        </div><div class="main">
+            <div class="sanjose">
+                <h1>San Jose</h1>
+                <div class="farceltemp">
+                    <p>show temperature in </p>
+                    <select onchange="temp" class="temperature" >
+                        <option value="Celcius" >°C</option>
+                        <option value="Fahrenheit" onclick="change">°F</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div class="week">
+                <div class="daily">
+                    <h2>Today</h2>
+                    <img src="assets/some_rain.png" class="image">
+                    <p>some rain</p>
+                    <div class="highlow">
+                        <h2 class="high">24°</h2>
+                        <h2 class="low">18°</h2>
+                    </div>
+                </div>
+                <div class="daily">
+                    <h2>Tomorrow</h2>
+                    <img src="assets/some_sun.png" class="image">
+                    <p>some sun</p>
+                    <div class="highlow">
+                        <h2 class="high">80°</h2>
+                        <h2 class="low">66°</h2>
+                    </div>
+                </div>
+                <div class="daily">
+                    <h2>Friday</h2>
+                    <img src="assets/some_clouds.png" class="image">
+                    <p>some clouds</p>
+                    <div class="highlow">
+                        <h2 class="high">69°</h2>
+                        <h2 class="low">61°</h2>
+                    </div>
+                </div>
+                <div class="daily">
+                    <h2>Saturday</h2>
+                    <img src="assets/some_sun.png" class="image">
+                    <p>some sun</p>
+                    <div class="highlow">
+                        <h2 class="high">78°</h2>
+                        <h2 class="low">70°</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie">
+                <img src="assets/cookie.png" class="cookieimage">
+                <div class="cookietext">
+                    <h1>Stop! Cookie time</h1>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features to analyse our traffic.<a href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-11.php#:~:text=Fahrenheit%20to%20Celsius%20%3A%20Subtract%2030,the%20number%20and%20add%2030.&text=ES6%20Version%3A,is%20%24%7BcToFahr%7D%20%5CxB0F.">Read more...</a> </p>
+                </div>
+                <div class="acceptbtn" onclick="accept()"> 
+                    <h2>Accept</h2>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+<!-- URL to info about converting temperatures, is found in the cookie. -->

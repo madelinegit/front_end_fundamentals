@@ -1,0 +1,105 @@
+* {
+	outline: 0;
+	padding: 0; 
+	margin: 0;
+	border: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+	}
+
+.container {
+    margin:0%auto;
+    align-items:center;
+    width: 900px;
+}
+
+.topnav {
+    margin-bottom: 15px;
+    padding:15px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.search {
+    top: 6px;
+    left: 8px;
+    width: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    padding: 2px 23px 2px 30px;
+    background-color: whitesmoke;
+    font-size: large;
+}
+
+#logout-id {
+    border: 2px solid black;
+    padding: 10px;
+    text-align:center;
+    background-color:blue;
+    color:white;
+    box-shadow: 3px 3px black;
+}
+
+.main {
+    display:flex;
+}
+.column1 {
+    flex:2;
+}
+.column2 {
+    flex:1;
+}
+
+.card, .card2 {
+    border: 3px solid black;
+    padding:15px; 
+    
+}
+.card {
+    margin-right:10px;
+    margin-bottom:15px;
+    display:flex; 
+    line-height: 30px;
+}
+.card2 {
+    margin-left:10px;
+    margin-bottom:15px;
+    
+}
+
+.like {
+    margin:20px 20px 20px 20px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align:center;
+    width: 70px;
+    box-shadow: 5px 5px black;
+    background-color:yellow;
+}
+
+.defbutton {
+    margin-top:20px;
+    border: 2px solid black;
+    padding: 10px 0px 10px 0px;
+    text-align:center;
+    background-color:green;
+    box-shadow: 3px 3px;
+}
+
+
+.dojonary {
+    font-size: 200%;
+}
+
+
+.cardcol1 {
+    text-align: center;
+}
+
+.cardcol2 {
+    margin-top:40px;
+    font-size: 150%;
+}
